@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Springcloud.helloworld.consume
+server:
+  port: 8802
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
